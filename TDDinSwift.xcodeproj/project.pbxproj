@@ -12,7 +12,8 @@
 		038FD2111BBC303C0005755F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038FD20F1BBC303C0005755F /* Main.storyboard */; };
 		038FD2131BBC303C0005755F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038FD2121BBC303C0005755F /* Assets.xcassets */; };
 		038FD2161BBC303C0005755F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038FD2141BBC303C0005755F /* LaunchScreen.storyboard */; };
-		038FD2211BBC303C0005755F /* TDDinSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FD2201BBC303C0005755F /* TDDinSwiftTests.swift */; };
+		038FD22C1BBC30790005755F /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FD22B1BBC30790005755F /* ProjectTests.swift */; settings = {ASSET_TAGS = (); }; };
+		038FD22E1BBC30E10005755F /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FD22D1BBC30E10005755F /* Project.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +35,9 @@
 		038FD2151BBC303C0005755F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		038FD2171BBC303C0005755F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		038FD21C1BBC303C0005755F /* TDDinSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDinSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		038FD2201BBC303C0005755F /* TDDinSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDinSwiftTests.swift; sourceTree = "<group>"; };
 		038FD2221BBC303C0005755F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038FD22B1BBC30790005755F /* ProjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
+		038FD22D1BBC30E10005755F /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				038FD2121BBC303C0005755F /* Assets.xcassets */,
 				038FD2141BBC303C0005755F /* LaunchScreen.storyboard */,
 				038FD2171BBC303C0005755F /* Info.plist */,
+				038FD22D1BBC30E10005755F /* Project.swift */,
 			);
 			path = TDDinSwift;
 			sourceTree = "<group>";
@@ -90,8 +93,8 @@
 		038FD21F1BBC303C0005755F /* TDDinSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				038FD2201BBC303C0005755F /* TDDinSwiftTests.swift */,
 				038FD2221BBC303C0005755F /* Info.plist */,
+				038FD22B1BBC30790005755F /* ProjectTests.swift */,
 			);
 			path = TDDinSwiftTests;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 		038FD2001BBC303C0005755F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Roadfire Software";
 				TargetAttributes = {
@@ -198,6 +202,7 @@
 			files = (
 				038FD20E1BBC303C0005755F /* ViewController.swift in Sources */,
 				038FD20C1BBC303C0005755F /* AppDelegate.swift in Sources */,
+				038FD22E1BBC30E10005755F /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				038FD2211BBC303C0005755F /* TDDinSwiftTests.swift in Sources */,
+				038FD22C1BBC30790005755F /* ProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,10 +351,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TDDinSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.TDDinSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDinSwift.app/TDDinSwift";
 			};
 			name = Debug;
@@ -358,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TDDinSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.TDDinSwiftTests;
