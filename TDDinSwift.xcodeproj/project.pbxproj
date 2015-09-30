@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038FD20C1BBC303C0005755F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FD20B1BBC303C0005755F /* AppDelegate.swift */; };
+		038FD20E1BBC303C0005755F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FD20D1BBC303C0005755F /* ViewController.swift */; };
+		038FD2111BBC303C0005755F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038FD20F1BBC303C0005755F /* Main.storyboard */; };
+		038FD2131BBC303C0005755F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038FD2121BBC303C0005755F /* Assets.xcassets */; };
+		038FD2161BBC303C0005755F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038FD2141BBC303C0005755F /* LaunchScreen.storyboard */; };
+		038FD2211BBC303C0005755F /* TDDinSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FD2201BBC303C0005755F /* TDDinSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		038FD21D1BBC303C0005755F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 038FD2001BBC303C0005755F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 038FD2071BBC303C0005755F;
+			remoteInfo = TDDinSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038FD2081BBC303C0005755F /* TDDinSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDinSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		038FD20B1BBC303C0005755F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		038FD20D1BBC303C0005755F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		038FD2101BBC303C0005755F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		038FD2121BBC303C0005755F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		038FD2151BBC303C0005755F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		038FD2171BBC303C0005755F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038FD21C1BBC303C0005755F /* TDDinSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDinSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		038FD2201BBC303C0005755F /* TDDinSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDinSwiftTests.swift; sourceTree = "<group>"; };
+		038FD2221BBC303C0005755F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		038FD2051BBC303C0005755F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038FD2191BBC303C0005755F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038FD1FF1BBC303C0005755F = {
+			isa = PBXGroup;
+			children = (
+				038FD20A1BBC303C0005755F /* TDDinSwift */,
+				038FD21F1BBC303C0005755F /* TDDinSwiftTests */,
+				038FD2091BBC303C0005755F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		038FD2091BBC303C0005755F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				038FD2081BBC303C0005755F /* TDDinSwift.app */,
+				038FD21C1BBC303C0005755F /* TDDinSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		038FD20A1BBC303C0005755F /* TDDinSwift */ = {
+			isa = PBXGroup;
+			children = (
+				038FD20B1BBC303C0005755F /* AppDelegate.swift */,
+				038FD20D1BBC303C0005755F /* ViewController.swift */,
+				038FD20F1BBC303C0005755F /* Main.storyboard */,
+				038FD2121BBC303C0005755F /* Assets.xcassets */,
+				038FD2141BBC303C0005755F /* LaunchScreen.storyboard */,
+				038FD2171BBC303C0005755F /* Info.plist */,
+			);
+			path = TDDinSwift;
+			sourceTree = "<group>";
+		};
+		038FD21F1BBC303C0005755F /* TDDinSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				038FD2201BBC303C0005755F /* TDDinSwiftTests.swift */,
+				038FD2221BBC303C0005755F /* Info.plist */,
+			);
+			path = TDDinSwiftTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		038FD2071BBC303C0005755F /* TDDinSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038FD2251BBC303C0005755F /* Build configuration list for PBXNativeTarget "TDDinSwift" */;
+			buildPhases = (
+				038FD2041BBC303C0005755F /* Sources */,
+				038FD2051BBC303C0005755F /* Frameworks */,
+				038FD2061BBC303C0005755F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDinSwift;
+			productName = TDDinSwift;
+			productReference = 038FD2081BBC303C0005755F /* TDDinSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		038FD21B1BBC303C0005755F /* TDDinSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038FD2281BBC303C0005755F /* Build configuration list for PBXNativeTarget "TDDinSwiftTests" */;
+			buildPhases = (
+				038FD2181BBC303C0005755F /* Sources */,
+				038FD2191BBC303C0005755F /* Frameworks */,
+				038FD21A1BBC303C0005755F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				038FD21E1BBC303C0005755F /* PBXTargetDependency */,
+			);
+			name = TDDinSwiftTests;
+			productName = TDDinSwiftTests;
+			productReference = 038FD21C1BBC303C0005755F /* TDDinSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		038FD2001BBC303C0005755F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Roadfire Software";
+				TargetAttributes = {
+					038FD2071BBC303C0005755F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					038FD21B1BBC303C0005755F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 038FD2071BBC303C0005755F;
+					};
+				};
+			};
+			buildConfigurationList = 038FD2031BBC303C0005755F /* Build configuration list for PBXProject "TDDinSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 038FD1FF1BBC303C0005755F;
+			productRefGroup = 038FD2091BBC303C0005755F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				038FD2071BBC303C0005755F /* TDDinSwift */,
+				038FD21B1BBC303C0005755F /* TDDinSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		038FD2061BBC303C0005755F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038FD2161BBC303C0005755F /* LaunchScreen.storyboard in Resources */,
+				038FD2131BBC303C0005755F /* Assets.xcassets in Resources */,
+				038FD2111BBC303C0005755F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038FD21A1BBC303C0005755F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038FD2041BBC303C0005755F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038FD20E1BBC303C0005755F /* ViewController.swift in Sources */,
+				038FD20C1BBC303C0005755F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038FD2181BBC303C0005755F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038FD2211BBC303C0005755F /* TDDinSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		038FD21E1BBC303C0005755F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 038FD2071BBC303C0005755F /* TDDinSwift */;
+			targetProxy = 038FD21D1BBC303C0005755F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		038FD20F1BBC303C0005755F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				038FD2101BBC303C0005755F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		038FD2141BBC303C0005755F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				038FD2151BBC303C0005755F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		038FD2231BBC303C0005755F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		038FD2241BBC303C0005755F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		038FD2261BBC303C0005755F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TDDinSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.TDDinSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		038FD2271BBC303C0005755F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TDDinSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.TDDinSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		038FD2291BBC303C0005755F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TDDinSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.TDDinSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDinSwift.app/TDDinSwift";
+			};
+			name = Debug;
+		};
+		038FD22A1BBC303C0005755F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TDDinSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.TDDinSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDinSwift.app/TDDinSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		038FD2031BBC303C0005755F /* Build configuration list for PBXProject "TDDinSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038FD2231BBC303C0005755F /* Debug */,
+				038FD2241BBC303C0005755F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		038FD2251BBC303C0005755F /* Build configuration list for PBXNativeTarget "TDDinSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038FD2261BBC303C0005755F /* Debug */,
+				038FD2271BBC303C0005755F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		038FD2281BBC303C0005755F /* Build configuration list for PBXNativeTarget "TDDinSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038FD2291BBC303C0005755F /* Debug */,
+				038FD22A1BBC303C0005755F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 038FD2001BBC303C0005755F /* Project object */;
+}
