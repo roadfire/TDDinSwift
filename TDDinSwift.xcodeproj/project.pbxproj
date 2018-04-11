@@ -12,8 +12,8 @@
 		038FD2111BBC303C0005755F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038FD20F1BBC303C0005755F /* Main.storyboard */; };
 		038FD2131BBC303C0005755F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038FD2121BBC303C0005755F /* Assets.xcassets */; };
 		038FD2161BBC303C0005755F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038FD2141BBC303C0005755F /* LaunchScreen.storyboard */; };
-		038FD22C1BBC30790005755F /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FD22B1BBC30790005755F /* ProjectTests.swift */; settings = {ASSET_TAGS = (); }; };
-		038FD22E1BBC30E10005755F /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FD22D1BBC30E10005755F /* Project.swift */; settings = {ASSET_TAGS = (); }; };
+		038FD22C1BBC30790005755F /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FD22B1BBC30790005755F /* ProjectTests.swift */; };
+		038FD22E1BBC30E10005755F /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038FD22D1BBC30E10005755F /* Project.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -333,6 +333,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.TDDinSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -344,6 +345,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.TDDinSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -357,6 +359,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.TDDinSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDinSwift.app/TDDinSwift";
 			};
 			name = Debug;
@@ -370,6 +373,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roadfiresoftware.TDDinSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDinSwift.app/TDDinSwift";
 			};
 			name = Release;
@@ -393,6 +397,7 @@
 				038FD2271BBC303C0005755F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		038FD2281BBC303C0005755F /* Build configuration list for PBXNativeTarget "TDDinSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +406,7 @@
 				038FD22A1BBC303C0005755F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

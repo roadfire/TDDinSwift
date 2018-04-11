@@ -7,7 +7,7 @@ class Project {
         self.id = id
     }
     
-    func asDictionary() -> [String: AnyObject] {
+    func asDictionary() -> [String: Any] {
         return ["id": id]
     }
 }
